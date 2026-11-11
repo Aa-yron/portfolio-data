@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Portfolio d'Ayron, étudiant en B1 informatique à Ynov, passionné par le développement et l'automatisme industriel.">
+  <meta name="theme-color" content="#f4f3ed">
+  <title>Ayron — Portfolio informatique & automatisme</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="wordmark" href="#accueil" aria-label="Accueil, Ayron">
+      <span class="wordmark-icon" aria-hidden="true">A</span>
+      <span>AYRON <span class="wordmark-divider">/</span> INFORMATIQUE & INDUSTRIE</span>
+    </a>
+    <nav class="site-nav" aria-label="Navigation principale">
+      <a href="#competences">Compétences</a>
+      <a href="#parcours">Parcours</a>
+      <a href="#projets">Projets</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section-wrap" id="accueil" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span> 28 ans · Étudiant en B1 informatique à Ynov</p>
+        <h1 id="hero-title">Du code<br>au <em>terrain industriel.</em></h1>
+        <p class="hero-description">Je m'appelle Ayron. Mon parcours associe informatique et automatisme : j'aime autant développer en Go que concevoir des solutions pour l'industrie.</p>
+        <div class="hero-actions">
+          <a class="button button-dark" href="#projets">Découvrir mes projets <span aria-hidden="true">↓</span></a>
+          <a class="text-link" href="#parcours">Voir mon parcours <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+      <div class="hero-art" aria-label="Illustration évoquant le code et l'automatisme">
+        <div class="art-orbit orbit-one"></div>
+        <div class="art-orbit orbit-two"></div>
+        <div class="art-core"><span>CODE</span><strong>×</strong><span>INDUSTRIE</span></div>
+        <span class="art-index index-top">FIG. 01 — PROFIL</span>
+        <span class="art-index index-bottom">GO / AUTOMATISME</span>
+        <span class="art-dot dot-a"></span><span class="art-dot dot-b"></span><span class="art-dot dot-c"></span>
+      </div>
+      <a class="scroll-cue" href="#competences"><span class="scroll-line"></span> DÉFILER</a>
+    </section>
+
+    <section class="content-section section-wrap" id="competences" aria-labelledby="skills-title">
+      <div class="section-label"><span>01</span> COMPÉTENCES</div>
+      <div class="section-content">
+        <div class="section-heading-row">
+          <h2 id="skills-title">Deux domaines,<br><em>un même esprit pratique.</em></h2>
+          <p class="section-intro">Des compétences en développement et en systèmes industriels, nourries par la formation et les projets.</p>
+        </div>
+        <div class="skills-grid">
+          <article class="skill-group">
+            <span class="skill-number">A / 01</span>
+            <h3>Informatique</h3>
+            <p>Go · HTML · CSS</p>
+          </article>
+          <article class="skill-group">
+            <span class="skill-number">A / 02</span>
+            <h3>Compétences industrielles</h3>
+            <p>Électricité · Pneumatique · Automatisme</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="content-section section-wrap" id="parcours" aria-labelledby="journey-title">
+      <div class="section-label"><span>02</span> PARCOURS</div>
+      <div class="section-content">
+        <div class="section-heading-row">
+          <h2 id="journey-title">Un parcours<br><em>entre deux univers.</em></h2>
+          <p class="section-intro">Mes formations m'ont apporté des bases en informatique, en automatisme et en anglais.</p>
+        </div>
+        <div class="timeline">
+          <article class="timeline-item">
+            <time>En cours</time>
+            <div>
+              <h3>B1 informatique</h3>
+              <p>Ynov</p>
+            </div>
+            <span class="timeline-marker" aria-hidden="true"></span>
+          </article>
+          <article class="timeline-item">
+            <time>Formation</time>
+            <div>
+              <h3>BTS en conception d'automatisme</h3>
+              <p>Formation en conception d'automatisme</p>
+            </div>
+            <span class="timeline-marker" aria-hidden="true"></span>
+          </article>
+          <article class="timeline-item">
+            <time>Parcours</time>
+            <div>
+              <h3>Apprentissage de l'anglais</h3>
+              <p>Parcours d'apprentissage en anglais</p>
+            </div>
+            <span class="timeline-marker" aria-hidden="true"></span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="content-section projects-section section-wrap" id="projets" aria-labelledby="projects-title">
+      <div class="section-label"><span>03</span> PROJETS</div>
+      <div class="section-content">
+        <div class="section-heading-row">
+          <h2 id="projects-title">Imaginer,<br><em>concevoir, réaliser.</em></h2>
+          <p class="section-intro">Deux projets qui illustrent mes intérêts, du développement logiciel à la conception de machines industrielles.</p>
+        </div>
+        <div class="project-list">
+          <article class="project-row">
+            <span class="project-index">01</span>
+            <div class="project-info">
+              <h3>Jeu en terminal avec Go</h3>
+              <p>Un jeu jouable depuis le terminal, développé en Go.</p>
+              <span class="project-tools">GO · TERMINAL</span>
+            </div>
+            <span class="project-link" aria-hidden="true">↗</span>
+          </article>
+          <article class="project-row">
+            <span class="project-index">02</span>
+            <div class="project-info">
+              <h3>Machine automatique de découpe de profilés</h3>
+              <p>Conception d'une machine industrielle destinée à la découpe automatique de profilés.</p>
+              <span class="project-tools">AUTOMATISME · INDUSTRIE</span>
+            </div>
+            <span class="project-link" aria-hidden="true">↗</span>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <span>© <span id="year">2026</span> Ayron</span>
+    <span>Portfolio · Informatique & automatisme</span>
+    <a href="#accueil">Retour en haut ↑</a>
+  </footer>
+  <script src="script.js" defer></script>
+</body>
+</html>
