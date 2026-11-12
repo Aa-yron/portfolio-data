@@ -1,0 +1,11 @@
+Execution fichier python
+
+PS C:\Users\ayron\portfolio-data> python .\exercice3_statistiques.py
+{'n': 12, 'moyenne': 250.0, 'ecart_type': 25.21}
+{'n': 0, 'moyenne': None, 'ecart_type': None}
+
+Execution fichier javascript
+
+PS C:\Users\ayron\portfolio-data> node .\exercice3_statistiques.js
+{ n: 12, moyenne: 250, ecart_type: 25.21 }
+{ n: 0, moyenne: null, ecart_type: null }

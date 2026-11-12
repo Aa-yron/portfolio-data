@@ -1,0 +1,18 @@
+explication : cette fonction permet de trier une liste de valeurs données
+en mode décroissant, puis de retourner les 3 premières valeurs de cette liste.
+Une liste à été préétablie contenant un département puis une valeur correspondante.
+on appelle la fonction avec cette liste
+elle crée une copie de la liste, et parcoure chaque élément de la liste.
+Si telle valeur de la liste est plus petite que la valeur d'après, elles sont
+échangées.
+On recommence le parcours jusqu'à ce qu'aucun échange n'ai été fait.
+Puis on renvoie les 3 premières données triées.
+
+suggestion de noms :
+
+fonction "TriDecroissant"
+const "donnée"
+nom v = "value"
+let c = "swap"
+const r = "list"
+const t = "valeur"
